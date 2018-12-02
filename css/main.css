@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.5 sans-serif;
+  background-color: #f0eee8;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.link-card {
+  display: block;
+  background-color: #cabdb2;
+  text-decoration: none;
+}
+
+.link-card:hover {
+  background-color:
+  border-color:
+  color:
+}
+
+.link-card:hover .btn {
+  background-color:
+}
