@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font: normal 100%/1.5 "Dosis",Georgia;
+  font: normal 100%/1.5 Dosis, Georgia;
   line-height: 1.5;
   background-color: #f0eee8;
 }
@@ -20,10 +20,6 @@ article {
   padding: 1.5em;
 }
 
-.link-card:hover {
-  background-color: #dcd4cd;
-}
-
 h2 {
   color: #512200;
   font-size: 1.5rem;
@@ -35,6 +31,7 @@ dl {
   font-family: georgia;
   border-bottom: 2px solid #9a816d;
 }
+
 dt {
   display: inline-block;
   width: 40%;
@@ -52,10 +49,10 @@ p {
   font-family: georgia;
   border-bottom: 2px solid #9a816d;
   padding: 0 0 1em;
-
 }
+
 .btn {
-  text-align: right;
+  text-align: center;
   display: inline-block;
   color: white;
   background-color: #785439;
@@ -63,6 +60,7 @@ p {
   padding: .4em .75em .5em;
   margin: 0;
   font-size: 1.125rem;
+  font-family: inherit;
 }
 
 .link-card {
@@ -72,6 +70,15 @@ p {
   border: 3px solid #785439;
   border-radius: 8px;
   padding: .4em .75em .5em;
+  background-color: #dcd4cd;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+.link-card h2 {
+  display: block;
 }
 
 .btn:hover {
