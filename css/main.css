@@ -17,7 +17,7 @@ article {
   text-decoration: none;
   color: #785439;
   background-color: #f0eee8;
-  padding: 1rem;
+  padding: .75rem;
 }
 
 h2 {
@@ -30,6 +30,9 @@ dl {
   display: inline-block;
   font-family: georgia;
   border-bottom: 2px solid #9a816d;
+  font-size: .875rem;
+  margin-top: 0;
+  padding-bottom: .5em;
 }
 
 dt {
